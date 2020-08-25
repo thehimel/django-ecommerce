@@ -7,3 +7,6 @@
 - Create models at a primary level
 - Create item_list view, configure urls.py, and create item_list.html
 - Download ecommerce template from [here](https://mdbootstrap.com/freebies/jquery/e-commerce/)
+- Move the template static files to static_files directory
+- Move the template html files to tempaltes directory
+- Add the static reference in necessary links in the base home-page.html
