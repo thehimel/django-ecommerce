@@ -9,7 +9,13 @@ Resources
 Steps:
 
 1. Clone/pull/download the boilerplate repository
-2. Create a virtualenv with `conda create --name env_pyshop python=3.7`, activate and install dependencies with `pip install -r requirements.txt`
+2. Create and activate virtualenv, then install dependencies.
+```bash
+conda create --name env_pyshop python=3.7
+conda activate env_pyshop
+pip install -r requirements.txt
+````
+
 3. Configure the .env variables
 4. Rename the project with `python manage.py rename <yourprojectname> <newprojectname>`
 
