@@ -14,8 +14,7 @@ Steps:
 conda create --name env_pyshop python=3.7
 conda activate env_pyshop
 pip install -r requirements.txt
-````
-
+```
 3. Configure the .env variables
 4. Rename the project with `python manage.py rename <yourprojectname> <newprojectname>`
 
