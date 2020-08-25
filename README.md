@@ -20,6 +20,7 @@ This boilerplate includes:
 3. A cli tool for setting environment variables for deployment
 
 ## Commands
+```bash
 prompt $g
 conda remove --name env_pyshop --all
 conda create --name env_pyshop python=3.7
@@ -29,6 +30,9 @@ pip install flake8
 pip freeze > requirements.txt
 python manage.py rename demo djecommerce
 
--> Migration
+# Migration
 python manage.py makemigrations
 python manage.py migrate
+```
+
+
