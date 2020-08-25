@@ -4,3 +4,6 @@
 - Install the pip dependencies.
 - Configure allauth from [here](https://django-allauth.readthedocs.io/en/latest/installation.html)
 - Test with /accounts/login
+- Create models at a primary level
+- Create item_list view, configure urls.py, and create item_list.html
+- Download ecommerce template from [here](https://mdbootstrap.com/freebies/jquery/e-commerce/)
